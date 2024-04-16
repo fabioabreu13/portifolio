@@ -1,0 +1,247 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  --cor-de-fundo: #f5f5f5;
+  --cor-de-link: #000;
+  --cor-de-fundo-cinza: #ededed;
+  --cor-de-fundo-azul: #eaf2fd;
+}
+
+body {
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+ol,
+ul,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+.all {
+  background-color: var(--cor-de-fundo-cinza);
+}
+
+/* Sessão Menu */
+.menu {
+  background-color: var(--cor-de-fundo-cinza);
+}
+
+.container__menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 26.5px;
+  text-transform: capitalize;
+}
+.menu__img {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.menu__list {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.list__itens__email {
+  text-transform: lowercase;
+}
+
+/* Sessão title */
+.title {
+  background-color: var(--cor-de-fundo-cinza);
+}
+
+.title__div {
+  display: flex;
+  flex-direction: column;
+  width: 1136px;
+  margin-left: 80px;
+}
+
+.title__profile {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: space-between;
+  padding: 40px;
+}
+
+.title__img {
+  width: 300px;
+  height: 300px;
+}
+
+.redes {
+  display: flex;
+  gap: 16px;
+  padding: 0px;
+}
+
+/* Sessão About */
+.container__about {
+  background-color: var(--cor-de-fundo-azul);
+  height: 383px;
+}
+
+.menu__about {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 1136px;
+  margin-left: 80px;
+}
+
+.about__title {
+  margin-top: 64px;
+}
+.about__texto {
+  padding: 40px;
+}
+
+/* Sessão Skills */
+.menu__skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1136px;
+  justify-content: space-around;
+  margin-left: 80px;
+}
+.skills__titulo {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.skills__alls {
+  display: flex;
+  align-items: center;
+  width: 1136px;
+  justify-content: space-around;
+}
+.skills__itens {
+  display: flex;
+  width: 1136px;
+  justify-content: space-around;
+  margin-left: 80px;
+}
+
+.skills__inside {
+  display: flex;
+  align-items: flex-end;
+  width: 176px;
+  height: 174px;
+  background-color: var(--cor-de-fundo);
+}
+
+/* Sessão Hobbies */
+.container__hobbies {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 88px;
+  margin-left: 80px;
+}
+
+.hobbies__all {
+  display: flex;
+  width: 1136px;
+  height: 174px;
+  margin-top: 32px;
+  justify-content: space-around;
+  margin-bottom: 88px;
+}
+.hobbies__itens {
+  display: flex;
+  align-items: flex-end;
+  width: 176px;
+  height: 174px;
+  background-color: var(--cor-de-fundo);
+}
+
+/* Sessão Academica */
+.container__academic {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--cor-de-fundo-azul);
+}
+.academic__titulo {
+  margin-top: 82px;
+  margin-bottom: 32px;
+  margin-left: 80px;
+}
+.academic__all {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 1136px;
+  height: 347px;
+}
+.academic__itens {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 368px;
+  height: 286px;
+  padding: 0;
+  background-color: #ffffff;
+}
+
+.academic__ul{
+  padding: 0;
+}
+
+/* Sessão Experiência */
+.container__xp{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.xp__titulo{
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.xp__all{
+  display: flex;
+  width: 1136px;
+  border: 1px solid red;
+}
+.xp__itens{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.xp__buttons{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.xp__button__rep{
+  width: 116px;
+  height: 51px;
+  color: #2a7ae4;
+  border: 1px solid #2a7ae4;
+  font-size: 16px;
+  background-color: var(--cor-de-fundo-cinza);
+}
+.xp__button__demo{
+  width: 116px;
+  height: 51px;
+  color: var(--cor-de-fundo-cinza);
+  border: 1px solid #2a7ae4;
+  font-size: 16px;
+  background-color: #2a7ae4;
+}
+.xp__all:nth-child(3){
+  flex-direction: row-reverse;
+}
